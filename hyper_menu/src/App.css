@@ -1,0 +1,180 @@
+
+.text-danger{
+ color: red;
+ padding: 5px;
+}
+
+#loading{
+    position:fixed;
+    z-index: 1000;
+    background-color: #00000050;
+    width: 100%;
+    height: 100vh;
+}
+
+.loaingComponent{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+}
+
+
+
+.studioFooter{
+position:fixed;
+bottom: 0;
+width: 100%;
+overflow-y: auto;
+white-space: nowrap;
+background: white;
+}
+
+.tabs a {
+  color: white;
+  background: #777;
+  display: inline-block;
+  margin: 6px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.tabs .selectedPageTab {
+  color: #777;
+  background: white;
+  display: inline-block;
+  margin: 6px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.templates{
+  margin: 10px;
+  border: black solid 1px;
+  overflow-y: auto;
+  white-space: nowrap;
+}
+
+.templates a{
+margin: 10px;
+display: inline-block;
+}
+
+.studio{
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.studioColumn{
+  height: 100vh;
+  overflow-y:scroll;
+  padding:0px
+}
+
+.sectionHeader {
+  background: #777;
+  padding: 15px;
+  color: black;
+}
+
+.sectionItem input{
+  width: 80%;
+}
+
+.studioColumn h6{
+  padding: 10px;
+}
+
+.studioColumn {
+  background-color: #eee;
+}
+
+#menuPage {
+  min-height:100vh;
+  height: 100%;
+  border:black solid 1px;
+}
+
+select {
+  font-family: 'FontAwesome', 'sans-serif';
+}
+
+
+.selectedItem{
+  border: red solid 5px;
+}
+
+.animated.flip {
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+  -webkit-animation-name: flip;
+  animation-name: flip;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes flip {
+  0% {
+  -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+  transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  }
+  40% {
+  -webkit-transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+  transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  }
+  50% {
+  -webkit-transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+  transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+  }
+  80% {
+  -webkit-transform: perspective(400px) scale3d(.95, .95, .95);
+  transform: perspective(400px) scale3d(.95, .95, .95);
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+  }
+  100% {
+  -webkit-transform: perspective(400px);
+  transform: perspective(400px);
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+  }
+  }
+  @keyframes flip {
+  0% {
+  -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+  transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  }
+  40% {
+  -webkit-transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+  transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  }
+  50% {
+  -webkit-transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+  transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+  }
+  80% {
+  -webkit-transform: perspective(400px) scale3d(.95, .95, .95);
+  transform: perspective(400px) scale3d(.95, .95, .95);
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+  }
+  100% {
+  -webkit-transform: perspective(400px);
+  transform: perspective(400px);
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+  }
+  } 
+
